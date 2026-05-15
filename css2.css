@@ -14,3 +14,99 @@ li {
     color: gold;
     font-size: 22px;
 }
+
+/* не рекомендуется */
+#my-frist-unique-text {
+    color: black;
+}
+
+
+[placeholder] {
+    border: 3px solid darkblue;
+}
+
+[type="number"] {
+    box-shadow: 3px 3px 3px 3px indianred;
+}
+
+[type="tel"] {
+    box-shadow: 3px 3px 3px 3px blue;
+}
+
+[type="email"] {
+    box-shadow: 3px 3px 3px 3px green;
+}
+
+/* если в ссылке есть кусочек текста= */
+[href*="hh.ru"] {
+    padding-left: 1.2em;
+    background: url(https://logo-teka.com/wp-content/uploads/2025/08/headhunter-logo.svg) 0 50%/1em no-repeat;
+}
+
+/* все ссылки начинающиеся с */
+[href^="http://"] {
+    color: red;
+}
+
+/* все ссылки заканчивающиеся на */
+[href$=".com"] {
+    background-image: linear-gradient(
+        pink 50%,
+        darkgray 50%
+    );
+}
+
+img {
+    width: 20%;
+}
+/* если в атрибуте есть отдельное слово ~= */
+[alt~="кот"] {
+    border: 10px dashed green;
+}
+
+/* если атрибут равен полностью слову (после может быть дефис) */
+[class|="warning"] {
+    color: darkorange;
+}
+
+/* если нужно чтобы применялось к разным регистрам то используется i */
+[alt*="cat" i] {
+    border: 15px dashed cornflowerblue
+}
+
+/* селектор потомка */
+section p span {
+    color: black;
+}
+
+/* группировка селекторов */
+h1, h2, h3 {
+    color: purple;
+}
+
+/* прямой дочерний элемент */
+section > h2 {
+    color: red;
+}
+
+/* тот же уровень вложенности (следующий элемент) */
+h2 + p {
+    color:blue;
+}
+
+/* каждый селектор имеет свой вес, чем больше вес, тем селектор главнее */
+
+/* вес по айди 1.0.0 = 100 */
+#my-id {
+
+}
+
+/* вес по классу 0.1.0 = 10 */
+.my-class {
+
+}
+
+/* вес по тегу 0.0.1 = 1 */
+div {
+
+}
