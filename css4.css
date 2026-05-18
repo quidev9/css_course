@@ -1,0 +1,11 @@
+.box-vertical {
+    padding-block: 100px;
+    background-color: lightblue;
+}
+
+.box-horizontal {
+    padding-inline: 100px;
+    background-color: lightpink;
+}
+
+/* если между двух элементов разный margin, то браузер выберет наибольший из них */
