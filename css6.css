@@ -1,0 +1,17 @@
+body {
+    font-family: 'Roboto';
+}
+
+@font-face {
+  font-family: 'Slavik';
+  font-style: normal;
+  font-weight: 400;
+  /* Указана точная прямая ссылка на файл шрифта */
+  src: url('../fonts/Slavik-Regular.otf') format('opentype');
+}
+
+/* дискриптор */
+
+.custom-font {
+    font-family: 'Slavik', Arial;
+}
