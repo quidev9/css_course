@@ -18,3 +18,10 @@ body {
 .custom-font {
     font-family: 'Slavik', Arial;
 }
+
+
+body {
+    line-height: 1.5;
+}
+
+/* для адаптива изменяет размер шрифта */
