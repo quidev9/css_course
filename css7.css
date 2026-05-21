@@ -7,3 +7,12 @@
     color: blue;
     border: 3px dashed currentColor;
 }
+
+.button {
+    color: cyan;
+    display: inline-block;
+    width: 20%;
+}
+svg * {
+    fill: currentColor;
+}
