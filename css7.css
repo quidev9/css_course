@@ -1,0 +1,9 @@
+.red-color {
+    color: rgb(255 0 0 / 0.5);
+}
+
+
+.current-color {
+    color: blue;
+    border: 3px dashed currentColor;
+}
